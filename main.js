@@ -22,3 +22,20 @@ function highlight(node) {
   selected = node;
   selected.classList.add('open-active');
 }
+
+//second option
+// const panels = document.querySelector('.panels');
+//
+// panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+// panels.forEach(panel => panel.addEventListener('transitioned', toggleActive));
+//
+//
+// function toggleOpen() {
+//   this.classList.toggle('open');
+// }
+//
+// function toggleActive(e) {
+//   if(e.propertyName.includes('flex')){
+//     this.classList.toggle('open-active');
+//   }
+// }
