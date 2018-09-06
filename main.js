@@ -24,7 +24,7 @@ function highlight(node) {
 }
 
 //second option
-// const panels = document.querySelector('.panels');
+// const panels = document.querySelectorAll('.panel');
 //
 // panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 // panels.forEach(panel => panel.addEventListener('transitioned', toggleActive));
